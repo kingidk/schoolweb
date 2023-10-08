@@ -1,0 +1,184 @@
+
+#body
+{
+    background-color: #eeec83;
+}
+
+
+
+
+
+
+
+div
+{
+    border-radius: 5px;
+    }
+
+    #navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #navbar li{
+        list-style: none;
+        padding: 0 20px;
+        position: relative;
+    
+    }
+    
+    #navbar li a{
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600 ;
+        color: #f1f5f0;
+        transition: 0.3s ease;
+    }
+    
+    
+    #navbar li a:hover,
+    #navbar li a.active{
+        color: #f8e041;
+    
+    }
+    
+    #navbar li a.active::after,
+    #navbar li a:hover::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #843504;
+        position: absolute;
+        bottom: -4px;
+        left: 20px; 
+    }
+
+
+    
+    
+#header
+{
+    position: fixed;
+    z-index: 1;
+    height:40px;
+    width: 98%;
+    background-color: #2e2828;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    margin-bottom: 10px
+    }
+
+    img{
+        width: 150px;
+        height:150px;
+        border-radius: 50%;
+        position:relative;
+        float: right;
+    }
+
+#name {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#email{
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #a48c11;
+}
+
+#contact
+{
+    margin-left:45%;
+    padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+    }
+
+a:hover {
+    font-weight: bold;
+}
+
+.right
+{
+    float: left;
+    margin-top: 50px;
+    padding-left:5px;
+
+    height: auto;
+    width: 99%;
+    background-color: #E3EDD8;
+    }
+
+.left
+{
+    float: left;
+    margin-top: 50px;
+    margin-right: -90px;
+    height: relative;
+    width: 10%;
+    background-color: #4160E8;
+    }
+    
+#footer
+{
+    height:40px;
+    clear:both;
+    position: relative;
+    background-color: #898709;
+   
+    }
+    
+h3
+{
+    text-decoration: underline;
+    }
+
+#job-responsibilities
+{
+    padding: 1px;
+    }
+.job-title
+{
+    font-weight: bold;
+    }
+table
+{
+    border: 1px dashed black;
+    }
+td
+{
+    padding: 2px;
+    border: 1px solid #E88741;
+    }
+
+#course-name
+{
+    font-weight:bold;
+    }
+
+#company-name
+{
+    height:2px;
+    text-decoration:underline;
+    }
+#job-title
+{
+    height: 5px;
+    }
+.job-duration
+{
+    float:right;
+    }
+#heading
+{
+    font-weight:bold;
+    }
